@@ -18,9 +18,11 @@ import java.util.List;
 /**
  * Implementation of base repository.
  *
- * @param <DOMAIN> domain type
+ * @param <DOMAIN> domain typeo
  * @param <ID>     id type
  * @author johnniang
+ * 
+ * 我加的一些注释
  */
 public class BaseRepositoryImpl<DOMAIN, ID> extends SimpleJpaRepository<DOMAIN, ID> implements BaseRepository<DOMAIN, ID> {
 
